@@ -16,7 +16,7 @@ app.use("/auth", authRoutes)
 app.use("/products/", productsRoutes)
 
 
-//app.listen(port)
-export default app
+app.listen(port)
+//export default app
 
 

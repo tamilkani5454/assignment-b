@@ -17,7 +17,7 @@ export const createUser = async () => {
 
 }
 export const login = async (req, res) => {
-    
+    console.log(req.body)
     const { email, password } = req.body;
     try {
         const query = `SELECT * FROM users WHERE email=$1`
