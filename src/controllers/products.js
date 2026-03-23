@@ -37,7 +37,6 @@ export const updateProducts = async (req, res) => {
 
 export const deleteProducts = async (req, res) => {
     const { id } = req.body;
-    console.log(req.body)
     try {
         const query = `DELETE FROM products WHERE id =$1`
         await pool.query(query, [id])

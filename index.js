@@ -11,12 +11,12 @@ app.use(cors())
 app.use(express.json());
 
 
-app.use("/register",userRoutes)
+app.use("/register", userRoutes)
 app.use("/auth", authRoutes)
-app.use("/products/",productsRoutes)
+app.use("/products/", productsRoutes)
 
 
-app.listen(port)
-
+//app.listen(port)
+export default app
 
 

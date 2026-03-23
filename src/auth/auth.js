@@ -34,7 +34,3 @@ export const checkAdmin = async (req, res) => {
 
 
 
-git init
-
-
-https://github.com/tamilkani5454/assignment-b.git
